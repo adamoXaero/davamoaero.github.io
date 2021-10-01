@@ -1,0 +1,68 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/PE2.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 787px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  width: 553px;
+  margin: 330px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 40px auto 48px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    background-position: 50% 0%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 649px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 497px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 373px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 235px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
